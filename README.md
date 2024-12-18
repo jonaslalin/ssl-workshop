@@ -100,7 +100,13 @@ openssl verify -CAfile acmecorprootca.crt -untrusted acmecorpintermediateca.crt 
 
 ## nginx
 
-### 1. Start a Web Server
+### 1. Create the Certificate Chain
+
+```sh
+cat examplecom.crt acmecorpintermediateca.crt > examplecomchain.crt
+```
+
+### 2. Start a Web Server
 
 ```sh
 HTTPS_PROXY=http://your.companyproxy.com:8080 \
@@ -113,7 +119,7 @@ podman run --publish 8443:443 \
            docker.io/library/nginx:1.27.3
 ```
 
-### 2. Try It Out!
+### 3. Try It Out!
 
 ```sh
 curl --cacert acmecorprootca.crt \
