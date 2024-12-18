@@ -1,0 +1,4 @@
+basicConstraints=CA:FALSE
+subjectKeyIdentifier=hash
+authorityKeyIdentifier=keyid:always
+subjectAltName=DNS:example.com,DNS:www.example.com,DNS:mail.example.com
