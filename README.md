@@ -64,7 +64,7 @@ openssl x509 -in acmecorpintermediateca.crt -noout -text
 openssl verify -CAfile acmecorprootca.crt acmecorpintermediateca.crt
 ```
 
-## `example.com`
+## example.com
 
 ### 1. Create a Private Key and a Certificate Signing Request
 
