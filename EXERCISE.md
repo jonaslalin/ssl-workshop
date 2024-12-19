@@ -11,8 +11,11 @@
 1. Add www.example.com to the domain certificate and redirect https://example.com to https://www.example.com.
 2. Make sure the intermediate CA cannot create other certificate authoritys, only the root CA has this power.
 3. Make a wildcard certificate for example.com, host multiple example.com subdomains with nginx, and verify using curl. Make sure nginx's SSL hostname routing works as expected.
+4. Redirect http traffic to https traffic (http://example.com -> https://example.com).
 
 # Resources
+
+**N.B.: Read the fucking manual! Twice!**
 
 1. https://docs.openssl.org/1.1.1/man1/genrsa/
 2. https://docs.openssl.org/1.1.1/man1/req/
