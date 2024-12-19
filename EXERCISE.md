@@ -28,6 +28,7 @@
 
 # Hints
 
+* The `-addext` argument for the certificate signing request does not work as expected in OpenSSL 1.1.1, the `-extfile` argument for the x509 command works.
 * X509 V3 certificate extensions are required for CAs.
 * Subject Alternative Name (SAN) have replaced the Common Name (CN) attribute (deprecated through https://www.rfc-editor.org/rfc/rfc2818.html).
 * Curl can use a virtual `/etc/hosts` file with the `--resolve` argument (see https://curl.se/docs/manpage.html#--resolve).
