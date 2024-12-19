@@ -23,8 +23,9 @@
 4. https://docs.openssl.org/1.1.1/man1/x509/
 5. https://docs.openssl.org/1.1.1/man1/verify/
 6. https://hub.docker.com/_/nginx
-7. https://docs.podman.io/en/stable/markdown/podman-run.1.html
-8. https://curl.se/docs/manpage.html
+7. http://nginx.org/en/docs/http/configuring_https_servers.html
+8. https://docs.podman.io/en/stable/markdown/podman-run.1.html
+9. https://curl.se/docs/manpage.html
 
 # Hints
 
