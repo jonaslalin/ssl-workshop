@@ -1,5 +1,11 @@
 # ssl-workshop
 
+Tested on:
+
+* OpenSSL 1.1.1k (FIPS 25 Mar 2021)
+* Podman 4.6.1 (Fri Aug 25 15:19:30 2023)
+* curl 7.61.1 (2018-09-05)
+
 ## Root Certificate Authority
 
 ### 1. Create a Private Key
